@@ -4,7 +4,12 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Home from './companent/home/Home'
 import Food from './assets/food-header.png'
-import AnimatedCursor from "react-animated-cursor"   
+import AnimatedCursor from "react-animated-cursor" 
+import Instagram from './assets/instagram.png'
+import Facebook from './assets/facebook.png'
+import Twitter from './assets/twitter.png'
+import Youtbe from './assets/youtbe.png'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -31,6 +36,47 @@ function App() {
       </div>
     </section>
      <Home/>
+
+     <section className="footer">
+      <div className="container">
+        <div className="footer_box">
+          <div className="footer_text">
+            <img src={Food} alt="" />
+            <p>www.company name.com</p>
+            <p>companyname@gmail.com</p>
+            <p>Phone: +7 485-118-03-25</p>
+          </div>
+          <div className="footer_text">
+            <h3>Home</h3>
+            <p>Landingpage</p>
+            <p>Documentation</p>
+            <p>Referral Program</p>
+            <p>UI & UX Design</p>
+            <p>Web Desigin</p>
+          </div>
+          <div className="footer_text">
+            <h3>Menu</h3>
+            <p>Landingpage</p>
+            <p>Documentation</p>
+            <p>Referral Program</p>
+            <p>UI & UX Design</p>
+            <p>Web Desigin</p>
+          </div>
+          <div className="footer_text">
+            <h3>Company</h3>
+            <p>Landingpage</p>
+            <p>Documentation</p>
+            <p>Referral Program</p>
+            <div className="footer_text_img">
+              <img src={Instagram} alt="" />
+              <img src={Facebook} alt="" />
+              <img src={Twitter} alt="" />
+              <img src={Youtbe} alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
      
     </>
   )

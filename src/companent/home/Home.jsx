@@ -18,6 +18,7 @@ import Menu3 from '../../assets/menu-3.png'
 import Menu4 from '../../assets/menu-4.png'
 import Menu5 from '../../assets/menu-5.png'
 import Menu6 from '../../assets/menu-6.png'
+import Testimonial from '../../assets/testimonial.png'
 
 
 let data = [
@@ -195,61 +196,35 @@ export default class Home extends Component {
 
               }
                 
-                {/* <div className="menu_card">
-                  <img src={Menu1} alt="" />
-                 <div className="menu_card_text">
-                    <span className='menu_card_span'> <h2> Vagie Muffen</h2> <h2>16$</h2></span>
-                      <p>There are many things are needed to start the Fast Food Business.</p>
-                      <div className="menu_card_img">
-                        <img src={Plus} alt="" />
-                        <img src={Yulduz1} alt="" />
-                      </div>
-                 </div>
-                </div>
-                <div className="menu_card">
-                  <img src={Menu1} alt="" />
-                 <div className="menu_card_text">
-                    <span className='menu_card_span'> <h2> Vagie Muffen</h2> <h2>16$</h2></span>
-                      <p>There are many things are needed to start the Fast Food Business.</p>
-                      <div className="menu_card_img">
-                        <img src={Plus} alt="" />
-                        <img src={Yulduz1} alt="" />
-                      </div>
-                 </div>
-                </div>
-                <div className="menu_card">
-                  <img src={Menu1} alt="" />
-                 <div className="menu_card_text">
-                    <span className='menu_card_span'> <h2> Vagie Muffen</h2> <h2>16$</h2></span>
-                      <p>There are many things are needed to start the Fast Food Business.</p>
-                      <div className="menu_card_img">
-                        <img src={Plus} alt="" />
-                        <img src={Yulduz1} alt="" />
-                      </div>
-                 </div>
-                </div>
-                <div className="menu_card">
-                  <img src={Menu1} alt="" />
-                 <div className="menu_card_text">
-                    <span className='menu_card_span'> <h2> Vagie Muffen</h2> <h2>16$</h2></span>
-                      <p>There are many things are needed to start the Fast Food Business.</p>
-                      <div className="menu_card_img">
-                        <img src={Plus} alt="" />
-                        <img src={Yulduz1} alt="" />
-                      </div>
-                 </div>
-                </div>
-                <div className="menu_card">
-                  <img src={Menu1} alt="" />
-                 <div className="menu_card_text">
-                    <span className='menu_card_span'> <h2> Vagie Muffen</h2> <h2>16$</h2></span>
-                      <p>There are many things are needed to start the Fast Food Business.</p>
-                      <div className="menu_card_img">
-                        <img src={Plus} alt="" />
-                        <img src={Yulduz1} alt="" />
-                      </div>
-                 </div>
-                </div> */}
+  
+            </div>
+          </div>
+        </section>
+
+        <section className="info">
+          <div className="container">
+            <div className="info_box">
+              <h3 className='info_h3-1'>Testimonial</h3>
+              <h1>Making Food great again and again</h1>
+              <p className='inpor_par1'>You need not only Just Food Stalls with Persons but also specialized equipment, Skills to manage Customers, Effective Product catlogues etc to make your.</p>
+              <img className='info_img1' src={Testimonial} alt="" />
+              <p className='info_par2'>You need not only Just Food Stalls with Persons but also specialized equipment, Skills to manage Customers, Effective Product catlogues etc very successful to make your.</p>
+              <img className='info_img2' src={Yulduz5} alt="" />
+              <h3 className='info_h3-2'>Augusta W. Reynoso</h3>
+              <p className='info_par3'>UI&UX DeSIGNER</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="contact">
+          <div className="container">
+            <div className="contact_box">
+              <h3>CONTACT</h3>
+              <h1>Food Stalls with Persons but also specialized equipment, Skills to manage.</h1>
+              <div className="contact_input">
+                <input type="text" placeholder='Enter your message' />
+                <button>Send</button>
+              </div>
             </div>
           </div>
         </section>

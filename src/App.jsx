@@ -25,11 +25,11 @@ function App() {
         <div className="navbar_box">
           <div className="navbar_links">
             <img src={Food} alt="" />
-            <a href="home">Home</a>
-            <a href="aboutUs">About Us</a>
-            <a href="menu">Menu</a>
-            <a href="features">Features</a>
-            <a href="contactUs">Contact Us</a>
+            <a href="/home.jsx/#home">Home</a>
+            <a href="/home.jsx/#about">About Us</a>
+            <a href="/home.jsx/#menu">Menu</a>
+            <a href="/home.jsx/#features">Features</a>
+            <a href="/home.jsx/#contact">Contact Us</a>
           </div>
           <button>Booking Now</button>
         </div>

@@ -84,7 +84,7 @@ export default class Home extends Component {
     
     return (
       <>
-        <section className="home">
+        <section id='home' className="home">
           <div className="container">
             <div className="home_box">
               <div className="home_text">
@@ -102,7 +102,7 @@ export default class Home extends Component {
           </div>
         </section>
 
-        <section className="fature">
+        <section id='about' className="fatur">
           <div className="container">
             <h3 className='fature_h3'>Features</h3>
             <h1>Food with a New Passion</h1>
@@ -154,7 +154,7 @@ export default class Home extends Component {
           </div>
         </section>
 
-        <section className="menu">
+        <section id='menu' className="menu">
           <div className="container">
             <div className="menu_par">
               <h3>MENU</h3>
@@ -201,7 +201,7 @@ export default class Home extends Component {
           </div>
         </section>
 
-        <section className="info">
+        <section id='features' className="info">
           <div className="container">
             <div className="info_box">
               <h3 className='info_h3-1'>Testimonial</h3>
@@ -216,7 +216,7 @@ export default class Home extends Component {
           </div>
         </section>
 
-        <section className="contact">
+        <section id='contact' className="contact">
           <div className="container">
             <div className="contact_box">
               <h3>CONTACT</h3>

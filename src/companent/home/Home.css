@@ -1,0 +1,257 @@
+.home_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.home_text h1 {
+    font-size: 48.83px;
+    font-weight: 700;
+    line-height: 57.6px;
+    max-width: 555px;
+    color: #150C01;
+    transition: .2s linear;
+}
+
+.home_text h1:hover {
+    color: #DC780B;
+}
+
+.home_text p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    max-width: 555px;
+   margin: 42px 0 50px 0;
+    color: #150C01 ;
+    transition: .2s linear;
+}
+
+.home_text p:hover {
+    color: #DC780B;
+}
+
+.home_text_button {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.home_text_button button {
+    width: 158px;
+    padding: 20px 0;
+    border-radius: 5px;
+    background: #DC780B;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    gap: 30px;
+    transition: .2s linear;
+
+}
+
+.home_text_button button:hover {
+    background: white;
+    color: #DC780B;
+    border: 1px solid  #DC780B;
+    
+}
+
+
+/*   F A T U R E    */
+
+.fature_h3 {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    color: #DC780B; 
+    margin: 115px 0 7px 0;
+}
+
+.fature h1 {
+    font-size: 31.25px;
+    font-weight: 700;
+    text-align: center;
+    color: #150C01;
+
+}
+
+.fature_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+.fature_card {
+    margin: 44px 0 123px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.fature_card img {
+    padding: 20px;
+    background: #e9eae4;
+    border-radius: 50%;
+    transition: .2s linear;
+
+}
+
+.fature_card img:hover {
+    transform: scale(1.08);
+    background: white;
+}
+
+.fature_card h3 {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 33px 0 15px 0;
+}
+
+.fature_card p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #150C01;
+    width: 300px;
+
+}
+
+
+/*   A B O U T   U S */
+
+
+.about_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about_text h3 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #DC780B;
+
+}
+
+.about_text h2 {
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 40.63px;
+    color: #150C01;
+    text-align: left;
+    max-width: 487px;
+    margin: 10px 0 30px 0;
+}
+
+.about_text p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    max-width: 487px;
+}
+
+.about_text button {
+    width: 142px;
+    padding: 13px 0;
+    border-radius: 5px;
+    background: #DC780B;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+.about_text button:hover {
+    background: #cd863b;
+}
+
+
+/*   M E N U     */
+
+
+.menu_par {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu_par h3 {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    color: #DC780B;
+    margin: 115px 0 9px 0;
+}
+
+.menu_par h1 {
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #150C01;
+    text-align: center;
+
+}
+
+.menu_par p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #150C01;
+    max-width: 748px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.menu_box {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    gap: 50px;
+}
+
+.menu_card {
+    width: 360px;
+    height: 446px;
+    border-radius: 75px 10px 10px 10px;
+    border: 1px solid gray ;
+
+}
+
+.menu_card_span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu_card p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 310px;
+    margin: 20px 0;
+}
+
+.menu_card_text {
+    padding: 20px;
+}
+
+.menu_card_img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

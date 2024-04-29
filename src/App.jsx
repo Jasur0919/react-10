@@ -41,7 +41,7 @@ function App() {
       <div className="container">
         <div className="footer_box">
           <div className="footer_text">
-            <img src={Food} alt="" />
+            <img className='Footer_img1' src={Food} alt="" />
             <p>www.company name.com</p>
             <p>companyname@gmail.com</p>
             <p>Phone: +7 485-118-03-25</p>

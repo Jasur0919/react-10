@@ -232,11 +232,17 @@
 
 }
 
-.menu_card_span {
+.menu_card_span   {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+.menu_card_span-child   {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 
 .menu_card p {
     font-size: 16px;

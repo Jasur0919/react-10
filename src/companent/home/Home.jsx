@@ -47,31 +47,31 @@ const baza = [
   },
   {
     img: Menu2,
-    price: [" Vagie Muffen", "16$"],
+    price: [" Slads", "12$"],
     par: "There are many things are needed to start the Fast Food Business.",
     images: [Plus, Yulduz2]
   },
   {
     img: Menu3,
-    price: [" Vagie Muffen", "16$"],
+    price: [" Burger", "10$"],
     par: "There are many things are needed to start the Fast Food Business.",
     images: [Plus, Yulduz3]
   },
   {
     img: Menu4,
-    price: [" Vagie Muffen", "16$"],
+    price: [" Delmonico Steak dish", "14$"],
     par: "There are many things are needed to start the Fast Food Business.",
     images: [Plus, Yulduz4]
   },
   {
     img: Menu5,
-    price: [" Vagie Muffen", "16$"],
+    price: [" Egg Masala", "9$"],
     par: "There are many things are needed to start the Fast Food Business.",
     images: [Plus, Yulduz5]
   },
   {
     img: Menu6,
-    price: [" Vagie Muffen", "16$"],
+    price: [" Peach Melba dish", "15$"],
     par: "There are many things are needed to start the Fast Food Business.",
     images: [Plus, Yulduz6]
   }
@@ -167,12 +167,28 @@ export default class Home extends Component {
                   <div key={ix} className="menu_card">
                   <img src={el.img} alt="" />
                  <div className="menu_card_text">
-                    <span className='menu_card_span'> <h2> Vagie Muffen</h2> <h2>16$</h2></span>
+                 <span className='menu_card_span '> 
+                  {
+                    el?.price?.map((e, indx) => (
+                      <div key={indx}> 
+                      <h2>{e}</h2>
+                       </div>
+
+                    ))
+                  }
+                    </span>
                       <p>{el.par}</p>
                       <div className="menu_card_img">
-                        <img src={Plus} alt="" />
-                        <img src={Yulduz1} alt="" />
-                      </div>
+                      {
+                        el?.images?.map((ev, elx) => (
+                          <div key={elx} className="menu_card_img">
+                            <img src={ev} alt="" />
+                            {/* <img src={Yulduz1} alt="" /> */}
+                          </div>
+
+                        ))
+                      }
+                       </div>
                  </div>
                 </div>
                 ))

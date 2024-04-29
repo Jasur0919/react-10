@@ -20,7 +20,7 @@ function App() {
 <AnimatedCursor innerStyle={{display: "none"}}/>
 
 
-    <section className="navber">
+    <section className="navbar">
       <div className="container">
         <div className="navbar_box">
           <div className="navbar_links">

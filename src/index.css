@@ -20,7 +20,14 @@
     /* color: t ransparent; */
 
   }
-
+.navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 0;
+  background-color: white;
+}
   .navbar_box {
     display: flex;
     align-items: center;

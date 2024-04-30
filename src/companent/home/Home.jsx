@@ -185,7 +185,7 @@ export default class Home extends Component {
                   <div className="flex">
                     {baza?.map((el, ix) => (
                       <div key={ix} className="menu_card">
-                        <img src={el.img} alt="" />
+                        <img className="menu_image" src={el.img} alt="" />
                         <div className="menu_card_text">
                           <span className="menu_card_span ">
                             {el?.price?.map((e, indx) => (
@@ -212,7 +212,7 @@ export default class Home extends Component {
                  <div className="flex">
                  {baza?.map((el, ix) => (
                     <div key={ix} className="menu_card">
-                      <img src={el.img} alt="" />
+                      <img className="menu_image" src={el.img} alt="" />
                       <div className="menu_card_text">
                         <span className="menu_card_span ">
                           {el?.price?.map((e, indx) => (
@@ -239,7 +239,7 @@ export default class Home extends Component {
                 <div className="flex">
                 {baza?.map((el, ix) => (
                     <div key={ix} className="menu_card">
-                      <img src={el.img} alt="" />
+                      <img className="menu_image" src={el.img} alt="" />
                       <div className="menu_card_text">
                         <span className="menu_card_span ">
                           {el?.price?.map((e, indx) => (

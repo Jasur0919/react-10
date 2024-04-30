@@ -247,7 +247,12 @@
     height: 446px;
     border-radius: 75px 10px 10px 10px;
     border: 1px solid gray ;
+    opacity: 0.9;
 
+}
+
+.menu_image {
+    width: 378px;
 }
 
 .menu_card_span   {

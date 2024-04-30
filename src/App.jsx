@@ -9,6 +9,9 @@ import Instagram from './assets/instagram.png'
 import Facebook from './assets/facebook.png'
 import Twitter from './assets/twitter.png'
 import Youtbe from './assets/youtbe.png'
+import ReactDOM from "react-dom";
+
+
 
 
 function App() {

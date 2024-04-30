@@ -216,6 +216,7 @@
     margin-top: 20px;
 }
 
+
 .menu_box {
     margin-top: 60px;
     display: flex;
@@ -225,9 +226,24 @@
     margin-bottom: 150px;
     gap: 50px;
 }
+.flex{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 30px;
+}
+
+/* .swiper-slide {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+    gap: 50px;
+} */
 
 .menu_card {
-    width: 360px;
+   
     height: 446px;
     border-radius: 75px 10px 10px 10px;
     border: 1px solid gray ;
